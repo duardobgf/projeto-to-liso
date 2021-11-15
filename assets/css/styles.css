@@ -188,13 +188,13 @@ img {
 
 /* INÍCIO DA PÁGINA */
 .home {
-    /*height: calc(100vh - 3rem);*/
+    height: calc(100vh - 3rem);
     margin-top: 5.8rem;
     row-gap: 1rem;
 }
-.home__data {
+/*.home__data {
     align-self: center;
-}
+}*/
 .home__title {
     font-size: var(--big-font-size);
     margin-bottom: var(--mb-5);
@@ -207,7 +207,7 @@ img {
     position: absolute;
     right: 0;
     bottom: 0;
-    width: 295px;
+    width: 300px;
 }
 
 /* BOTÕES */
@@ -221,4 +221,17 @@ img {
 }
 .button:hover {
     box-shadow: 0 10px 36px rgba(0, 0, 0, .15);
+}
+
+/* SOBRE NÓS */
+.about__container {
+    row-gap: 2rem;
+    text-align: center;
+    color: #000;
+}
+.about__subtitle {
+    margin-bottom: var(--mb-2);
+}
+.about__text {
+    text-align: justify;
 }
