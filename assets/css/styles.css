@@ -178,7 +178,7 @@ img {
     height: 0.18rem;
     left: 0;
     top: 2rem;
-    background-color: var(--first-color);
+    
 }
 
 /* MOSTRAR MENU */
@@ -235,3 +235,58 @@ img {
 .about__text {
     text-align: justify;
 }
+
+/* APRENDA */
+.skills__container {
+    row-gap: 2rem;
+    text-align: center;
+}
+.skills__subtitle {
+    margin-bottom: var(--mb-2);
+}
+.skills__text{
+    margin-bottom: var(--mb-4);
+}
+.skills__data{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: var(--font-semi);
+    padding: .5rem 1rem;
+    margin-bottom: var(--mb-4);
+    border-radius: .5rem;
+    box-shadow: 0px 4px 5px  rgba(14, 36, 49, .15);
+}
+.skills__names{
+    display: flex;
+    align-items: center;
+}
+.skills__bar{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: var(--second-color);
+    height: .25rem;
+    border-radius: .5rem;
+    z-index: var(--z-back);
+}
+.accordion {
+    background-color: white;
+    color: rgb(37, 37, 37);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
