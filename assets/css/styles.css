@@ -259,8 +259,9 @@ img {
     box-shadow: 0px 4px 5px  rgba(14, 36, 49, .15);
 }
 .skills__names{
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .skills__bar{
     position: absolute;
@@ -295,6 +296,8 @@ img {
 #icon {
     color: var(--first-color);
     font-size: 1.5rem;
+    text-align: left;
+    
 }
 
 /* RODAPÉ */
