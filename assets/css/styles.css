@@ -309,6 +309,37 @@ img {
     padding: 2rem 0;
 }
 
+/* === CSS DAS PÁGINAS DO CONTEÚDO == */
+.subpage-content {
+  padding: 2rem 1rem;
+}
+
+.subpage-title {
+  color: var(--first-color);
+  padding-bottom: 10px;
+}
+.subpage-video {
+  width: 70%;
+  margin: auto;
+  border: 5px solid var(--first-color);
+  padding-top: 40%;
+  position: relative;
+}
+.subpage-video iframe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.list-subpage {
+  list-style: disc;
+  padding: 10px 0 20px 30px;
+}
+ 
 /* MEDIA QUERIES */
 @media screen and (min-width: 768px){
   body{
@@ -364,7 +395,6 @@ img {
     width: 457px;
     bottom: 15%;
   }
-
   .about__container, .skills__container{
     grid-template-columns: repeat(1,1fr);
     align-items: center;
@@ -372,6 +402,10 @@ img {
   }
   .about__img img{
     width: 300px;
+  }
+
+  .subpage-content {
+    padding: 80px 20px;
   }
   .work__container{
     grid-template-columns: repeat(3, 1fr);
