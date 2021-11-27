@@ -22,9 +22,8 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#" class="nav__link active">Início</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Sobre nós</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Conteúdo</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Contato</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre nós</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Conteúdo</a></li>
                 </ul>
             </div>
 
@@ -38,12 +37,12 @@
         <!-- INÍCIO -->
         <section class="home bd-grid" id="home">
             <div class="home__data">
-                <h1 class="home__title">Tudo que não te ensinaram <br>sobre <span class="home__title-color">finanças.</span></h1>
-                <a href="#" class="button">Começar</a>
+                <h1 class="home__title">Tudo que não <br> te ensinaram <br>sobre <span class="home__title-color">finanças.</span></h1>
+                <a href="#skills" class="button">Começar</a>
             </div>
 
             <div class="home__img">
-                <img src="assets/img/aprendendo.png" alt="">
+                <a href="index.html"><img src="assets/img/aprendendo.png" alt="Logo Tô Liso"></a>
             </div>
         </section>
 
@@ -61,20 +60,23 @@
 
         <!-- APRENDA -->
         <section class="skills section" id="skills">
-          <h2 class="sectio-title">Aprenda</h2>
+          <h2 class="section-title">Aprenda</h2>
 
-          <div class="skills__contaier bd-grid"> 
-              <div>
-                <h2 class="skills__subtitle">Sub-Titlo</h2>
-                <p class="skills__text">Lorem ipsun, varios textos.</p>
+          <div> 
+              <div class="skills__container bd-grid">
+                <p class="skills__text">Clique sobre as seções abaixo para navegar pelos conteúdos.</p>
 
                 <div class="skills__data">
                     <div class="skills__names">
+                        <i class='bx bx-credit-card' id="icon"></i>
                       <button class="accordion">Organização Financeira</button>
                     <div class="panel">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur 
-                        </p>
+                        <ul>
+                            <li><a href="#">Planejamento financeiro: se organizar direitinho, dá!</a></p><br></li>
+                            <li><a href="#">Monte uma reserva de emergência</a></p><br></li>
+                            <li><a href="#">Cartão de crédito x Débito</a></p><br></li>
+                            <li><a href="#">Medindo a inflação com um Big Mac</a></p><br></li>
+                        </ul>
                         <div class="skills__bar skills__html"></div>
                     </div>
                     </div>
@@ -82,33 +84,45 @@
                     
                     <div class="skills__data">
                         <div class="skills__names">
-                          <button class="accordion">Organização Financeira</button>
+                            <i class='bx bxs-brush' id="icon"></i>
+                          <button class="accordion">Limpa Nome & Golpes</button>
                         <div class="panel">
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur 
-                            </p>
+                            <ul>
+                                <li><a href="#">Planejamento financeiro: se organizar direitinho, dá!</a></p><br></li>
+                                <li><a href="#">Monte uma reserva de emergência</a></p><br></li>
+                                <li><a href="#">Cartão de crédito x Débito</a></p><br></li>
+                                <li><a href="#">Medindo a inflação com um Big Mac</a></p><br></li>
+                            </ul>
                             <div class="skills__bar skills__html"></div>
                         </div>
                         </div>
                         </div>
                         <div class="skills__data">
                             <div class="skills__names">
-                              <button class="accordion">Organização Financeira</button>
+                            <i class='bx bxl-bitcoin' id="icon"></i>
+                              <button class="accordion">Investimentos & Bitcoin</button>
                             <div class="panel">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur 
-                                </p>
+                                <ul>
+                                    <li><a href="#">Rentabilidade, Liguidez e Segurança</a></p><br></li>
+                                    <li><a href="#">Perfil de Investidor</a></p><br></li>
+                                    <li><a href="#">Pirâmide Financeira</a></p><br></li>
+                                    <li><a href="#">Bitcoin</a></p><br></li>
+                                </ul>
                                 <div class="skills__bar skills__html"></div>
                             </div>
                             </div>
                             </div>
                             <div class="skills__data">
                                 <div class="skills__names">
-                                  <button class="accordion">Organização Financeira</button>
+                                    <i class='bx bxs-quote-right' id="icon"></i>
+                                  <button class="accordion">Direitos Trabalhistas</button>
                                 <div class="panel">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur 
-                                    </p>
+                                    <ul>
+                                        <li><a href="#">Planejamento financeiro: se organizar direitinho, dá!</a></p><br></li>
+                                        <li><a href="#">Monte uma reserva de emergência</a></p><br></li>
+                                        <li><a href="#">Cartão de crédito x Débito</a></p><br></li>
+                                        <li><a href="#">Medindo a inflação com um Big Mac</a></p><br></li>
+                                    </ul>
                                     <div class="skills__bar skills__html"></div>
                                 </div>
                                 
@@ -119,7 +133,10 @@
         </section>
     </main>
     <!-- RODAPÉ -->
-
+    <footer class="footer">
+        <p>Feito com &#9829; pelos alunos da EEEP Mário Alencar</p>
+        <p>2021</p>
+    </footer>
 
     <!-- ANIMAÇÃO DA PÁGINA (SCROLL REVEAL)-->
     <script src="https://unpkg.com/scrollreveal"></script>
