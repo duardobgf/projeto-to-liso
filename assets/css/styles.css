@@ -314,7 +314,7 @@ img {
   padding: 2rem 1rem;
 }
 
-.subpage-title {
+.subpage-title, h3 {
   color: var(--first-color);
   padding-bottom: 10px;
 }
