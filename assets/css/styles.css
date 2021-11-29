@@ -312,6 +312,8 @@ img {
 /* === CSS DAS PÁGINAS DO CONTEÚDO == */
 .subpage-content {
   padding: 2rem 1rem;
+  max-width: 1500px;
+  text-align: justify;
 }
 
 .subpage-title, h3 {
